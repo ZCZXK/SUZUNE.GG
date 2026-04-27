@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ZCZXK Bots</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+body{
+  margin:0;
+  background:linear-gradient(135deg,#0b0f19,#000);
+  color:white;
+  font-family:'Inter',sans-serif;
+}
+
+/* NAVBAR */
+.nav{
+  position:sticky;
+  top:0;
+  display:flex;
+  justify-content:space-between;
+  padding:15px 30px;
+  background:rgba(0,0,0,0.6);
+  backdrop-filter:blur(10px);
+}
+.nav h2{color:#00ffff}
+
+/* HERO */
+.hero{
+  text-align:center;
+  padding:80px 20px;
+}
+.hero h1{
+  font-size:3em;
+  background:linear-gradient(90deg,#00ffff,#6a5cff);
+  -webkit-background-clip:text;
+  color:transparent;
+}
+.hero p{color:#aaa}
+
+/* BUTTON */
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 25px;
+  border-radius:30px;
+  background:linear-gradient(90deg,#00ffff,#6a5cff);
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+  transition:0.3s;
+}
+.btn:hover{
+  transform:scale(1.1);
+  box-shadow:0 0 20px #00ffff;
+}
+
+/* BOTS */
+.bots{
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  flex-wrap:wrap;
+  padding:40px;
+}
+
+.card{
+  background:#111827;
+  border-radius:20px;
+  width:300px;
+  padding:20px;
+  box-shadow:0 0 20px #00ffff22;
+  transition:0.3s;
+  position:relative;
+}
+.card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 0 40px #00ffff;
+}
+
+.badge{
+  position:absolute;
+  top:10px;
+  right:10px;
+  background:#00ffff;
+  color:black;
+  padding:5px 10px;
+  border-radius:10px;
+  font-size:12px;
+}
+
+.card img{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+  object-fit:cover;
+  display:block;
+  margin:auto;
+  box-shadow:0 0 20px #00ffff;
+}
+
+.card h3{
+  text-align:center;
+  margin-top:10px;
+  color:#00ffff;
+}
+
+.card p{
+  text-align:center;
+  color:#aaa;
+  font-size:14px;
+}
+
+/* DISCORD BUTTON */
+.discord-btn{
+  display:inline-block;
+  padding:12px 25px;
+  border-radius:10px;
+  background:#5865F2;
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+  transition:0.3s;
+}
+.discord-btn:hover{
+  background:#4752C4;
+  box-shadow:0 0 20px #5865F2;
+  transform:scale(1.05);
+}
+
+/* FEATURES */
+.features{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  padding:40px;
+  flex-wrap:wrap;
+}
+
+.fbox{
+  background:#111827;
+  padding:20px;
+  border-radius:15px;
+  width:200px;
+  text-align:center;
+  color:#aaa;
+}
+
+/* FOOTER */
+.footer{
+  text-align:center;
+  padding:20px;
+  color:#666;
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAV -->
+<div class="nav">
+  <h2>ZCZXK</h2>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <h1>Next Gen Discord Bots</h1>
+  <p>Powerful • Fast • Reliable</p>
+
+  <a class="btn" href="https://discord.gg/jj5A4FwjJ" target="_blank">
+    💬 Join Support Server
+  </a>
+</div>
+
+<!-- BOTS -->
+<div class="bots">
+
+  <!-- MODERATION BOT -->
+  <div class="card">
+    <div class="badge">NEW</div>
+    <img src="mod.png">
+    <h3>Moderation Bot</h3>
+    <p>Advanced moderation & ticket system</p>
+    <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1489882067239047168&permissions=8&scope=bot%20applications.commands" target="_blank">
+      Invite
+    </a>
+  </div>
+
+  <!-- BIRTHDAY BOT -->
+  <div class="card">
+    <div class="badge">NEW</div>
+    <img src="birthday.png">
+    <h3>Birthday Bot</h3>
+    <p>Auto birthday wishes & roles system</p>
+    <a class="btn" href="https://discord.com/oauth2/authorize?client_id=1497853623621779516&permissions=8&scope=bot%20applications.commands" target="_blank">
+      Invite
+    </a>
+  </div>
+
+</div>
+
+<!-- SUPPORT BUTTON EXTRA -->
+<div style="text-align:center; margin-top:20px;">
+  <a href="https://discord.gg/jj5A4FwjJ" target="_blank" class="discord-btn">
+    Join Discord Support
+  </a>
+</div>
+
+<!-- FEATURES -->
+<div class="features">
+  <div class="fbox">⚔ Secure</div>
+  <div class="fbox">⚡ Fast</div>
+  <div class="fbox">🎟 Tickets</div>
+  <div class="fbox">🎉 Fun</div>
+</div>
+
+<div class="footer">
+  © 2026 ZCZXK • PremPlay
+</div>
+
+</body>
+  </html>
